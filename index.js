@@ -23,7 +23,7 @@ const app = express();
 
 const server = http.createServer(app); 
 
-mongoose.connect('mongodb://localhost:27017/criminalDb')
+mongoose.connect('mongodb+srv://footyshorthub:<db_password>@cluster0.jfvehss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/criminalDb')
 
 app.use(cors());
 app.use(express.json());
