@@ -1,0 +1,6 @@
+face_recognition
+opencv-python
+imutils
+numpy 
+pip install flask-socketio
+
