@@ -18,6 +18,7 @@ const userModel = require('./Model/usermodel');
 const bcrypt = require('bcrypt');
 const logModel = require('./Model/logs');
 const generateCameraJson = require('./fetchAndSave');
+require('dotenv').config();
 
 const app = express();
 
