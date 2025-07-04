@@ -24,7 +24,7 @@ const app = express();
 
 const server = http.createServer(app); 
 
-mongoose.connect('mongodb+srv://footyshorthub:<db_password>@cluster0.jfvehss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/crimnalDb' )
+mongoose.connect('mongodb+srv://footyshorthub:footyshorthub@cluster0.jfvehss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/crimnalDb' )
 
 app.use(cors());
 app.use(express.json());
