@@ -40,7 +40,7 @@ const db = mongoose.connection;
 
  setInterval(() => {
      generateCameraJson();
-   }, 0.5 * 60 * 1000);
+   },  10000);
 
 
 //auth
